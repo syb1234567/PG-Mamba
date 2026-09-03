@@ -1,0 +1,98 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Datasets / medical data
+# =========================
+data/
+dataset/
+datasets/
+images/
+image/
+labels/
+label/
+masks/
+mask/
+metadata/
+
+*.dcm
+*.nii
+*.nii.gz
+
+# =========================
+# Model checkpoints
+# =========================
+*.pth
+*.pt
+*.ckpt
+
+# =========================
+# Training outputs
+# =========================
+result/
+results/
+outputs/
+predictions/
+runs/
+logs/
+wandb/
+checkpoints/
+
+# =========================
+# TensorBoard
+# =========================
+events.out.tfevents.*
+
+# =========================
+# Temporary / backup
+# =========================
+*.bak
+*.tmp
+*.temp
+*.swp
+*~
+tmp/
+temp/
+cache/
+
+# =========================
+# Secrets
+# =========================
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# =========================
+# Build artifacts
+# =========================
+build/
+dist/
+*.egg-info/
+*.so
+*.o
+*.a
